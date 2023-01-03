@@ -70,7 +70,7 @@ EOF
 Next, use the file you created as the input for the eksctl cluster creation.
 
 {{% notice info %}}
-We are deliberatly launching at least one Kubernetes version behind the latest available on [Amazon EKS](https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html). This allows you to perform the [cluster upgrade](https://www.eksworkshop.com/intermediate/320_eks_upgrades/) lab.
+We are deliberatly launching at least one Kubernetes version behind the latest available (shown at: [Amazon EKS Kubernetes versions](https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html)).  Please confirm the version in the eksworkshop.yaml that was just created is a supported version.  This allows you to perform the [cluster upgrade](https://www.eksworkshop.com/intermediate/320_eks_upgrades/) lab.
 {{% /notice %}}
 
 ```bash
